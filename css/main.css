@@ -1,0 +1,66 @@
+* {
+	font-size:16px;
+}
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+body {
+	align-items: center;
+	-webkit-align-items: center;
+	display: -webkit-flex;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	-webkit-justify-content: center;
+	min-height: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+.main-content {
+	margin:0 auto;
+	max-width:80%;
+	text-align:center;
+}
+.title--my-name, .title--about-me, .contact {
+	margin:0;
+	padding:0;
+
+}
+.title--my-name {
+	color:#515250;
+	font-family: 'Rubik', sans-serif;
+	font-size:2.5em;
+	letter-spacing:-2px;
+	margin-bottom:.5em;
+}
+.title--my-name:after {
+	content: " ";
+    display: block;
+    margin-top: .375em;
+    margin-bottom: .375em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45px;
+    height: 3px;
+    background-color: #ded9d3;
+}
+.title--about-me {
+	color:#cecbc7;
+	font-family: 'Suravaram', serif;
+	font-size:1.5em;
+	line-height: 30px;
+	font-weight:lighter;
+	max-width: 800px;
+}
+.contact {
+	font-family: 'Suravaram', serif;
+	list-style:none;
+	margin-top:40px;
+}
+.contact a {
+	color:#cecbc7;
+	font-size:1.2em;
+}
+.contact li a:not(:last-child) {
+	margin-right:10px;
+}
