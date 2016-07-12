@@ -4,6 +4,7 @@
 html, body {
 	height: 100%;
 	min-height: 100%;
+	margin:0;
 }
 body {
 	align-items: center;
@@ -16,24 +17,42 @@ body {
 	min-height: 100%;
 	-webkit-font-smoothing: antialiased;
 }
+body:before, body:after {
+    content: " ";
+    position: fixed;
+    background: #f1f1f1;
+    left: 0;
+    right: 0;
+    height: 20px;
+}
+body:before {
+    top: 0;
+}
+body:after {
+    bottom: 0;
+}
+body {
+    border-left: 20px solid #f1f1f1;
+    border-right: 20px solid #f1f1f1;  
+}
 .main-content {
 	margin:0 auto;
 	max-width:80%;
 	text-align:center;
 }
-.title--my-name, .title--about-me, .contact {
+.say-my-name, .about-me, .contact {
 	margin:0;
 	padding:0;
 
 }
-.title--my-name {
+.say-my-name {
 	color:#515250;
 	font-family: 'Rubik', sans-serif;
 	font-size:2.5em;
 	letter-spacing:-2px;
 	margin-bottom:.5em;
 }
-.title--my-name:after {
+.say-my-name:after {
 	content: " ";
     display: block;
     margin-top: .375em;
@@ -44,7 +63,11 @@ body {
     height: 3px;
     background-color: #ded9d3;
 }
-.title--about-me {
+.say-my-last-name {
+	font-size:1em;
+	margin-left:5px;
+}
+.about-me {
 	color:#cecbc7;
 	font-family: 'Suravaram', serif;
 	font-size:1.5em;
