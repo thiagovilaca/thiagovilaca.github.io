@@ -6,8 +6,8 @@ nav#nav-menu ul:before {
 	content:'';
 	background:url('../img/rosa.png');
 	display:inline-block;
-	width:35px;
-	height:35px;
+	width:45px;
+	height:45px;
 	vertical-align: middle;
 }
 
@@ -45,6 +45,12 @@ a.manual-bio:before {
 	width:30px;
 	height:30px;
 	vertical-align: middle;
+}
+
+#footer {
+	background-image: url('../img/bg-footer.png');
+	background-repeat: no-repeat;
+	background-position: right center;
 }
 
 @media only screen and (max-width: 992px) {
