@@ -47,6 +47,10 @@ a.manual-bio:before {
 	vertical-align: middle;
 }
 
+p {
+	text-align: justify;
+}
+
 #footer {
 	background-image: url('../img/bg-footer.png');
 	background-repeat: no-repeat;
