@@ -51,10 +51,27 @@ p {
 	text-align: justify;
 }
 
+.digiteyes, .digiteyes a {
+	color:#484343;
+}
+.digiteyes {
+	font-size:.8em;
+	margin-left:20px;
+	padding:5px;
+	display: inline-block;
+    vertical-align: middle;
+}
+.digiteyes a {
+	font-style:italic;
+	font-weight:bold;
+	padding-bottom:2px;
+}
+
+
 #footer {
 	background-image: url('../img/bg-footer.png');
 	background-repeat: no-repeat;
-	background-position: right center;
+	background-position: center center;
 }
 
 @media only screen and (max-width: 992px) {
