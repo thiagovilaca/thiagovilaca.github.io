@@ -1,87 +1,10 @@
-/*--------------------------------------------------------------
-    CSS PRINCIPAL
-----------------------------------------------------------------
-
-    1.0 - Google Fonts
-    2.0 - Font Awesome 4.6.3
-    3.0 - Boostrap Grid System
-    4.0 - Reset
-    5.0 - Helper Classes
-    6.0 - Headings
-    7.0 - Main Wrapper
-    8.0 - Main Header
-    9.0 - Main Navigation
-        9.1 - Mobile Navigation
-    10.0 - Section
-        10.1 - Section title
-    11.0 - Contacts Bar
-    12.0 - Instagram Bar
-    13.0 - Portfolio
-        13.1 - Portfolio Filters
-    14.0 - Call to Action
-    15.0 - Artists
-    16.0 - Journal/Blog
-        16.1 - Events
-    17.0 - Sidebar
-    18.0 - Pagination
-    19.0 - Social Networks
-    20.0 - Form
-        20.1 - Custom Checkbox
-        20.2 - Custom Radio Button
-        20.3 - Custom Radio Button with Image
-        20.4 - Custom Dropdown
-        20.5 - Form Message
-        20.6 - Form Loader
-    21.0 - Footer
-        21.1 - Working Days
-    22.0 - Popup
-    23.0 - Google Map
-    24.0 - Elements
-        24.1 - Divider
-        24.2 - Caption
-        24.3 - Toggle
-        24.4 - Tabs
-        24.5 - Button
-        24.6 - Icon List
-        24.7 - Milestone
-        24.8 - Testimonials Slider
-    25.0 - Page Loader
-    26.0 - Backgrounds
-        26.1 - Glyph Backgrounds
-    27.0 - Dark styles
-    28.0 - Bounce Animation
-    29.0 - Media Queries
-    30.0 - Magnific Popup CSS
-    31.0 - Flexslider CSS
-
---------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------
-    1.0 - Google Fonts
---------------------------------------------------------------*/
 
 /* Roboto Condensed */
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,700,300,400);
-
 /* Open Sans */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
-
-/*--------------------------------------------------------------
-    2.0 - Font Awesome 4.6.3
---------------------------------------------------------------*/
-
 @import url('font-awesome.min.css');
-
-/*--------------------------------------------------------------
-    3.0 - Boostrap Grid System
---------------------------------------------------------------*/
-
 @import url('bootstrap.min.css');
-
-/*--------------------------------------------------------------
-    4.0 - Reset
---------------------------------------------------------------*/
 *,
 *:before,
 *:after {
@@ -280,11 +203,6 @@ a i {
     -o-transition: color 0.2s;
     transition: color 0.2s;
 }
-
-/*--------------------------------------------------------------
-    5.0 - Helper Classes
---------------------------------------------------------------*/
-
 .text-left {
   text-align: left;
 }
@@ -359,10 +277,6 @@ a i {
     clear: both;
 }
 
-/*--------------------------------------------------------------
-    6.0 - Headings
---------------------------------------------------------------*/
-
 h1,
 h2,
 h3,
@@ -432,17 +346,9 @@ h6 i {
     margin-top: 0;
 }
 
-/*--------------------------------------------------------------
-    7.0 - Main Wrapper
---------------------------------------------------------------*/
-
 .wrapper {
     height: 100%;
 }
-
-/*--------------------------------------------------------------
-    8.0 - Main Header
---------------------------------------------------------------*/
 
 #master-header {
     position: relative;
@@ -622,10 +528,6 @@ h6 i {
     background-size: cover;
 }
 
-/*--------------------------------------------------------------
-    9.0 - Main Navigation
---------------------------------------------------------------*/
-
 #nav-menu {
     float: right;
     text-transform: uppercase;
@@ -785,10 +687,6 @@ h6 i {
     padding: 5px 7px;
 }
 
-/*--------------------------------------------------------------
-    9.1 - Mobile Navigation
---------------------------------------------------------------*/
-
  #nav-toggle {
     display: none;
     position: fixed;
@@ -882,17 +780,9 @@ h6 i {
     transform: translateY(-5px) rotate(-45deg);
 }
 
-/*--------------------------------------------------------------
-    10.0 - Section
---------------------------------------------------------------*/
-
 .section {
     padding: 80px 0;
 }
-
-/*--------------------------------------------------------------
-    10.1 - Section Title
---------------------------------------------------------------*/
 
 .section-title {
     margin: -80px 0 80px 0;
@@ -914,10 +804,6 @@ h6 i {
 .section-title.transparent {
     background-color: transparent !important;
 }
-
-/*--------------------------------------------------------------
-    11.0 - Contacts Bar
---------------------------------------------------------------*/
 
 #contacts-bar {
     position: fixed;
@@ -960,10 +846,6 @@ h6 i {
 #contacts-bar i {
     margin-right: 10px;
 }
-
-/*--------------------------------------------------------------
-    12.0 - Instagram Bar
---------------------------------------------------------------*/
 
 .instagram-bar {
     position: relative;
@@ -1056,11 +938,6 @@ h6 i {
 .instagram-bar:not(.feed-bg):hover:after {
     bottom: -60px;
 }
-
-/*--------------------------------------------------------------
-    13.0 - Portfolio
---------------------------------------------------------------*/
-
 .work {
     padding: 10px;
     cursor: pointer;
@@ -1204,10 +1081,6 @@ h6 i {
     content: '\f10d';
 }
 
-/*--------------------------------------------------------------
-    13.1 - Portfolio Filters
---------------------------------------------------------------*/
-
 .filters {
     margin: 0 10px 30px;
     text-align: center;
@@ -1254,10 +1127,6 @@ h6 i {
     text-align: center;
 }
 
-/*--------------------------------------------------------------
-    14.0 - Call to Action
---------------------------------------------------------------*/
-
 .cta {
     position: relative;
     padding: 80px 20px;
@@ -1276,10 +1145,6 @@ h6 i {
 .cta .btn {
     margin-top: 40px;
 }
-
-/*--------------------------------------------------------------
-    15.0 - Artists
---------------------------------------------------------------*/
 
 .artist {
     text-align: center;
@@ -1340,10 +1205,6 @@ h6 i {
 .award-info {
     padding-left: 40px;
 }
-
-/*--------------------------------------------------------------
-    16.0 - Journal/Blog
---------------------------------------------------------------*/
 
 .post {
     margin-bottom: 40px;
@@ -1416,10 +1277,6 @@ h6 i {
     margin-bottom: 10px;
 }
 
-/*--------------------------------------------------------------
-    16.1 - Events
---------------------------------------------------------------*/
-
 .event .post-title:before {
     font-family: 'FontAwesome';
     content: '\f08d';
@@ -1460,10 +1317,6 @@ h6 i {
     color: #161616;
     font-weight: 700;
 }
-
-/*--------------------------------------------------------------
-    17.0 - Sidebar
---------------------------------------------------------------*/
 
 .widget {
     margin-bottom: 40px;
@@ -1529,10 +1382,6 @@ ul.tags li a:hover {
     background-color: #161616;
 }
 
-/*--------------------------------------------------------------
-    18.0 - Pagination
---------------------------------------------------------------*/
-
 .pagination {
     float: right;
     list-style: none;
@@ -1564,10 +1413,6 @@ ul.tags li a:hover {
 .pagination a i {
     margin-right: 0;
 }
-
-/*--------------------------------------------------------------
-    19.0 - Social Networks
---------------------------------------------------------------*/
 
 ul.social-links {
     padding: 0;
@@ -1657,10 +1502,6 @@ ul.social-links a i {
     margin-right: 0;
 }
 
-/*--------------------------------------------------------------
-    20.0 - Form
---------------------------------------------------------------*/
-
 form label,
 form .label {
     display: block;
@@ -1719,10 +1560,6 @@ select,
     display: block;
 }
 
-/*--------------------------------------------------------------
-    20.1 - Custom Checkbox
---------------------------------------------------------------*/
-
 .checkbox-replacer {
     position: relative;
     display: inline-block;
@@ -1753,10 +1590,6 @@ select,
 input[type=checkbox]:checked + .checkbox-replacer:before {
     color: inherit;
 }
-
-/*--------------------------------------------------------------
-    20.2 - Custom Radio Button
---------------------------------------------------------------*/
 
 .radio > strong {
     display: block;
@@ -1798,10 +1631,6 @@ input[type=radio]:checked + .radio-replacer {
     border: 1px solid #cccccc;
     border-radius: 50%;
 }
-
-/*--------------------------------------------------------------
-    20.3 - Custom Radio Button with Image
---------------------------------------------------------------*/
 
 .radio img {
     display: block;
@@ -1861,10 +1690,6 @@ input[type=radio]:checked + .radio-replacer {
     content: '';
 }
 
-/*--------------------------------------------------------------
-    20.4 - Custom Dropdown
---------------------------------------------------------------*/
-
 .select-replacer {
     list-style: none;
     margin: 10px 0 0;
@@ -1898,10 +1723,6 @@ input[type=radio]:checked + .radio-replacer {
 .select-replacer.open li:first-child:after {
     content: '\f077';
 }
-
-/*--------------------------------------------------------------
-    20.5 - Form Message
---------------------------------------------------------------*/
 
 .form-msg {
     position: fixed;
@@ -2010,10 +1831,6 @@ input[type=radio]:checked + .radio-replacer {
     transform: rotate(135deg);
 }
 
-/*--------------------------------------------------------------
-    20.6 - Form Loader
---------------------------------------------------------------*/
-
 .form-loader {
     display: inline-block;
     margin-left: 20px;
@@ -2029,10 +1846,6 @@ input[type=radio]:checked + .radio-replacer {
     -o-animation: bounce 0.8s infinite ease-in-out;
     animation: bounce 0.8s infinite ease-in-out;
 }
-
-/*--------------------------------------------------------------
-    21.0 - Footer
---------------------------------------------------------------*/
 
 footer {
     background-color: #121212 !important;
@@ -2085,10 +1898,6 @@ footer .row {
     text-align: center;
 }
 
-/*--------------------------------------------------------------
-    21.1 - Working Days
---------------------------------------------------------------*/
-
 .working-days,
 .working-days dt,
 .working-days dd {
@@ -2111,10 +1920,6 @@ footer .row {
     font-weight: bold;
 }
 
-/*--------------------------------------------------------------
-    22.0 - Popup
---------------------------------------------------------------*/
-
 .popup {
     margin: 100px auto;
     padding: 40px;
@@ -2135,10 +1940,6 @@ footer .row {
     height: 60px;
 }
 
-/*--------------------------------------------------------------
-    23.0 - Google Map
---------------------------------------------------------------*/
-
 #map {
     height: 500px;
 }
@@ -2146,13 +1947,6 @@ footer .row {
 .gmnoprint img {
     max-width: none;
 }
-
-/*--------------------------------------------------------------
-    24.0 - Elements
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-    24.1 - Divider
---------------------------------------------------------------*/
 
 hr {
     display: block;
@@ -2170,10 +1964,6 @@ hr.md-divider {
 hr.lg-divider {
     margin: 80px 0;
 }
-
-/*--------------------------------------------------------------
-    24.2 - Caption
---------------------------------------------------------------*/
 
 .caption {
     position: relative;
@@ -2194,10 +1984,6 @@ hr.lg-divider {
     background-color: #eeeeee;
     content: '';
 }
-
-/*--------------------------------------------------------------
-    24.3 - Toggle
---------------------------------------------------------------*/
 
 .toggle {
     margin-bottom: 20px
@@ -2236,10 +2022,6 @@ hr.lg-divider {
 .toggle.open .title-toggle:before {
     content: '\2212';
 }
-
-/*--------------------------------------------------------------
-    24.4 - Tabs
---------------------------------------------------------------*/
 
 .tabs {
     margin-bottom: 20px;
@@ -2283,10 +2065,6 @@ hr.lg-divider {
 .tab.opentab {
     display: block;
 }
-
-/*--------------------------------------------------------------
-    24.5 - Button
---------------------------------------------------------------*/
 
 .btn {
     display: inline-block;
@@ -2333,10 +2111,6 @@ hr.lg-divider {
    padding: 30px 40px;
 }
 
-/*--------------------------------------------------------------
-    24.6 - Icon List
---------------------------------------------------------------*/
-
 .icon-list {
     padding-left: 20px;
     list-style: none;
@@ -2354,10 +2128,6 @@ hr.lg-divider {
     left: 0;
     color: #161616;
 }
-
-/*--------------------------------------------------------------
-    24.7 - Milestone
---------------------------------------------------------------*/
 
 .milestone {
     min-height: 150px;
@@ -2390,10 +2160,6 @@ hr.lg-divider {
     text-transform: uppercase;
     border-top: 1px solid #BDC3C7;
 }
-
-/*--------------------------------------------------------------
-    24.8 - Testimonials Slider
---------------------------------------------------------------*/
 
 .testimonials-slider .testimonial {
     padding: 0 60px;
@@ -2431,10 +2197,6 @@ hr.lg-divider {
     font-weight: bold;
 }
 
-/*--------------------------------------------------------------
-    25.0 - Page Loader
---------------------------------------------------------------*/
-
 .content-loader {
     position: fixed;
     top: 0;
@@ -2461,10 +2223,6 @@ hr.lg-divider {
     -o-animation: bounce 0.8s infinite ease-in-out;
     animation: bounce 0.8s infinite ease-in-out;
 }
-
-/*--------------------------------------------------------------
-    26.0 - Backgrounds
---------------------------------------------------------------*/
 
 .bg {
     position: relative;
@@ -2494,10 +2252,6 @@ hr.lg-divider {
     background-color: #000000;
     opacity: 0.1;
 }
-
-/*--------------------------------------------------------------
-    26.1 - Glyph Backgrounds
---------------------------------------------------------------*/
 
 .bg-glyph {
     background-repeat: no-repeat;
@@ -2798,10 +2552,6 @@ hr.lg-divider {
     background-image: url(../img/glyphs/corona-dark.png);
 }
 
-/*--------------------------------------------------------------
-    28.0 - Bounce Animation
---------------------------------------------------------------*/
-
 @-webkit-keyframes bounce {
     0%  {
             -webkit-transform: translateY(0px);
@@ -2857,10 +2607,6 @@ hr.lg-divider {
     75%  {  transform: translateY(5px); }
     100% {  transform: translateY(0px); }
 }
-
-/*--------------------------------------------------------------
-    29.0 - Media Queries
---------------------------------------------------------------*/
 
 @media only screen and (max-width : 992px) {
 
@@ -3111,10 +2857,6 @@ hr.lg-divider {
         transform: translateY(50%);
     }
 }
-
-/*--------------------------------------------------------------
-    30.0 - Magnific Popup CSS
---------------------------------------------------------------*/
 
 .mfp-bg {
     position: fixed;
@@ -3554,10 +3296,6 @@ img.mfp-img {
     }
 
 }
-
-/*--------------------------------------------------------------
-    31.0 - Flexslider CSS
---------------------------------------------------------------*/
 
 .slides,
 .slides > li,
