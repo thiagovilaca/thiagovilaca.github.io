@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="pt-BR">
 <head>
     <meta charset="utf-8">
     <title>Tarallo - Tattoo Atelier</title>
@@ -15,7 +15,6 @@
             <div id="media-container"></div>
             <div class="top-header">
                 <div class="container">
-                    <!-- ============ Main Navigation - START ============ -->
                     <a id="nav-toggle" href="#"><span></span></a>
                     <nav id="nav-menu">
                         <ul>
@@ -26,16 +25,13 @@
                             <li><a title="Localização" href="#map">Localização</a></li>
                         </ul>
                     </nav>
-                    <!-- ============ Main Navigation - END ============ -->
                 </div>
             </div>
             <div id="brand">
                 <h1 id="logo"><img src="img/logo-tarallo-png.png" alt="The Tattooist - Tattoo Studio"></h1>
             </div>
         </header>
-        <!-- ============ Main Header - END ============ -->
         <div id="main">
-            <!-- ============ Contacts Bar - START ============ -->
             <div id="contacts-bar" class="row">
                 <div class="address col-md-6"><strong>TARALLO TATTOO ATELIER </strong>- Av. Adolfo Pinheiro, 1579-B - Sobreloja</div>
                 <div class="other col-md-6">
@@ -45,8 +41,6 @@
 
                 </div>
             </div>
-            <!-- ============ Contacts Bar - END ============ -->
-            <!-- ============ About Us - START ============ -->
             <div id="about-me" class="section dark">
                 <div class="section-title">
                     <h2>JULIO TARALLO</h2>
@@ -75,8 +69,6 @@
                     </div>
                 </div>
             </div>
-            <!-- ============ About Us - END ============ -->
-            <!-- ============ Works - START ============ -->
             <div id="gallery" class="section">
                 <div class="section-title">
                     <h2>GALERIA DE FOTOS</h2>
@@ -287,11 +279,7 @@
                     </div>
                 </div>
             </div>
-            <!-- ============ Works - END ============ -->
-            <!-- ============ Instagram Banner - START ============ -->
             <a class="instagram-bar" href="#">Veja mais fotos no <strong>Instagram</strong>!</a>
-            <!-- ============ Instagram Banner - END ============ -->
-            <!-- ============ About Us - START ============ -->
             <div id="atelier" class="section dark">
                 <div class="section-title">
                     <h2>Atelier</h2>
@@ -313,8 +301,6 @@
                     </div>
                 </div>
             </div>
-            <!-- ============ About Us - END ============ -->
-            <!-- ============ Contact form - START ============ -->
             <div id="contact" class="section">
                 <div class="section-title">
                     <h2>Entre em contato</h2>
@@ -348,108 +334,8 @@
                     </form>
                 </div>
             </div>
-            <!-- ============ Contact form - END ============ -->
-            <!-- ============ Call to Action - START ============ -->
-<!--
-                <div id="budget" class="section cta dark">
-                    <h2>E aí, pronto para fazer sua tattoo?</h2>
-                    <div class="cta-info">Agilize o processo, faça o orçamento por aqui.</div>
-                    <a class="btn md light btn-popup" href="#request"><i class="fa fa-thumb-tack"></i>Orçamento</a>
-                    <form id="request" class="contact-form popup mfp-hide" action="mailer/appointment.php" method="post">
-                        <div class="head"><img src="img/logo.png" alt="logo"></div>
-                        <h3 class="focus-title"><i class="fa fa-thumb-tack"></i>Request an appointment</h3>
-                        <label>
-                            <strong>First Name *</strong>
-                            <input class="required" type="text" name="first_name">
-                        </label>
-                        <label>
-                            <strong>Last Name *</strong>
-                            <input class="required" type="text" name="last_name">
-                        </label>
-                        <label>
-                            <strong>Email *</strong>
-                            <input class="required" type="text" name="email">
-                        </label>
-                        <label>
-                            <strong>Phone Number *</strong>
-                            <input class="required" type="text" name="phone">
-                        </label>
-                        <label>
-                            <strong>Part of the Body</strong>
-                            <select name="part_body">
-                                <option value="Leg">Leg</option>
-                                <option value="Calf">Calf</option>
-                                <option value="Ankle">Ankle</option>
-                                <option value="Foot">Foot</option>
-                                <option value="Arm">Arm</option>
-                                <option value="Forearm">Forearm</option>
-                                <option value="Wrist">Wrist</option>
-                                <option value="Hand">Hand</option>
-                                <option value="Nek">Nek</option>
-                                <option value="Head">Head</option>
-                                <option value="Back">Back</option>
-                                <option value="Buttocks">Buttocks</option>
-                                <option value="Genitals">Genitals</option>
-                                <option class="other" value="Other">Other (Specify below)</option>
-                            </select>
-                        </label>
-                        <label id="other" class="hidden-field">
-                            <strong>Specific Part of Body</strong>
-                            <input type="text" name="custom">
-                        </label>
-                        <label><strong>Tattoo Size *</strong> (ex: 5x4)
-                            <input class="required" type="text" name="size">
-                        </label>
-                        <div class="radio label">
-                            <strong>Tattoo Color</strong>
-                            <label>
-                                <input type="radio" value="Black &amp; White" name="color" checked>
-                                <span class="radio-replacer"></span>
-                                <span>Black &amp; White</span>
-                            </label>
-                            <label>
-                                <input class="required" type="radio" value="Color" name="color">
-                                <span class="radio-replacer"></span>
-                                <span>Color</span>
-                            </label>
-                        </div>
-                        <label><strong>Tattoo Description *</strong>
-                            <textarea class="required" name="description"></textarea>
-                        </label>
-                        <div class="radio image-radio label">
-                            <strong>Choose an Artist</strong>
-                            <label>
-                                <input type="radio" value="Artist A" name="artist" checked>
-                                <span><img src="img/user.jpg" alt="Artist A"><span>Artist A</span></span>
-                            </label>
-                            <label>
-                                <input type="radio" value="Artist B" name="artist">
-                                <span><img src="img/user.jpg" alt="Artist B"><span>Artist B</span></span>
-                            </label>
-                            <label>
-                                <input type="radio" value="Artist C" name="artist">
-                                <span><img src="img/user.jpg" alt="Artist C"><span>Artist C</span></span>
-                            </label>
-                        </div>
-                        <hr>
-                        <label>
-                            <input class="required" type="checkbox" name="check">
-                            <span class="checkbox-replacer"></span>
-                            <strong>Check to authorize the system *</strong>
-                        </label>
-                        <hr>
-                        <p>( <strong>*</strong> ) = Mandatory field</p>
-                        <input class="submit btn md" type="submit" name="submit" value="Request Appointment">
-                        <input type="hidden" name="form_type" value="appointment">
-                    </form>
-                </div>
-            -->
-            <!-- ============ Call to Action - END ============ -->
-            <!-- ============ Map - START ============ -->
             <div id="map"></div>
-            <!-- ============ Map - END ============ -->
         </div>
-        <!-- ============ Footer - START ============ -->
         <div id="footer" class="section cta dark">
             <img class="align-center" src="img/logo-tarallo-footer.png" alt="THE TATTOOIST - Tattoo Studio">
             <div class="contact-address">Av. Adolfo Pinheiro, 1579-B - Sobreloja</div>
@@ -464,7 +350,6 @@
             </div>
             <a class="manual-bio" href="manual-bio.pdf">Manual de Biossegurança</a>
         </div>
-        <!-- ============ Footer - END ============ -->
     </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/common.js"></script>
