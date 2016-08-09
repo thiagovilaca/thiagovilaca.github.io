@@ -14,6 +14,7 @@ nav#nav-menu ul:before {
 
 .about-me--extras li {
 	margin-bottom:15px;
+	text-align: justify;
 }
 
 .privacy {
@@ -61,6 +62,10 @@ p {
 	font-style:italic;
 	font-weight:bold;
 	padding-bottom:2px;
+}
+
+.foto-studio, .foto-tarallo {
+	box-shadow: 10px 10px 0 #1f1e1e;
 }
 
 
