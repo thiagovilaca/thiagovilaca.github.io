@@ -72,7 +72,7 @@ p {
 #footer {
 	background-image: url('../img/bg-footer.png');
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: -115px center;
 }
 
 @media only screen and (max-width: 992px) {
